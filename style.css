@@ -4,6 +4,7 @@
     box-sizing: border-box;
 
 }
+/*Mian Nav Bar */
 .navbar{
     height:60px;
     background-color: #0f1111;
@@ -99,5 +100,27 @@ border:none;
 }
 .nav-cart{
     font-size: 0.85rem;
+    font-weight: 700;
+}
+/*Secondary Nav Bar */
+.panel{
+    height:40px;
+    background-color: #222f3d;
+    display:flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panel-ops p{
+    display: inline;
+    margin-left:10px;
+
+}
+.panel-ops{
+    width: 70%;
+    font-size: 0.85rem;
+}
+.panel-deals{
+    font-size: 0.9rem;
     font-weight: 700;
 }
