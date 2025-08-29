@@ -147,3 +147,48 @@ align-items: flex-end;
 .hero-msg a{
     color:#007185;
 }
+/*content*/
+.shop-section{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #d4e8e4;
+
+
+}
+.box{
+    
+    border: 2px solid whitesmoke; 
+    width:23%; 
+    background-color: white; 
+    padding:15px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.box-img{
+    height: 270px;
+    width: 100%;
+    border: 1px solid white;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    
+    
+}
+.box-content{
+
+    margin-left: 1rem;
+    margin-right:1rem;
+}
+.box-content p{
+    
+    color:#007185;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    display: block;
+    margin-top: auto;
+}
