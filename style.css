@@ -11,17 +11,17 @@
     color:white;
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 15px;
     justify-content: space-evenly;
 }
 .nav-logo{
-    height: 50px;
+    height: 80px;
     width: 150px;
 }
 .logo{
-    background-image: url("amazon logo.png");
+    background-image: url("images/Amazon\ Logo.png");
     background-size:cover;
-    height: 50px;
+    height: 70px;
     width: 150px;
 }
 .border{
@@ -126,7 +126,7 @@ border:none;
 }
 /*Hero section */
 .hero-section{
-    background-image: url(Hero-section.jpg);
+    background-image: url(images/Hero-section.jpg);
     background-size: cover;
     height: 350px;
     display:flex;
